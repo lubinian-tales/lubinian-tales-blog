@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>{{page.title}}</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=0.7">
-        <link rel="shortcut icon" href="/favicon.ico">
-    </head>
-    <body>
-        <main>
-            {{content}}
-        </main>
-    </body>
+  <head>
+    <title>{{page.title}}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.7">
+    {% feed_meta %}
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/assets/css/pure-min.css">
+    <link rel="stylesheet" href="/assets/css/screen.css">
+  </head>
+  <body>
+    <header>
+      <img src="/assets/img/logo.png">
+    </header>
+    <main>
+      {{content}}
+    </main>
+  </body>
 </html>

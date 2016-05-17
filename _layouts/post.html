@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="post-banner">
+  <div class="post-banner-head">
+    <h1>Lubinian Gazette</h1>
+    <h2>The official Lubinian Tales blog from author A J Rees.</h2>
+  </div>
+</div>
+
+<article>
+
+  <div class="post-header">
+    <h2>
+      {{ post.title }}
+    </h2>
+    <p class="post-meta">
+      Published by A J Rees on {{ post.date | date: '%B %d, %Y' }}
+    </p>
+  </div>
+
+  <div class="post-text">
+    {{ content }}
+  </div>
+
+</article>

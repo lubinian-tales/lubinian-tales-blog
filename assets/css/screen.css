@@ -1,0 +1,75 @@
+body {
+  color: #444;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.8em;
+}
+header {
+  padding: 1em;
+}
+article {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+article .post-header {
+  display: block;
+}
+.post-header a, .post-header a:visited {
+  color: #222;
+  text-decoration: none;
+}
+.post-header a:hover, .post-header a:visited:hover {
+  color: #222;
+  text-decoration: underline;
+}
+.post-header h2 {
+  font-size: 2em;
+  margin-bottom: 0.2em;
+}
+.post-header p {
+  color: #999;
+  font-size: 90%;
+  margin: 0;
+}
+article .post-text {
+  font-family: Georgia, "Cambria", serif;
+}
+
+.banner, .post-banner {
+  background: transparent url('http://lubinian-tales.github.io/lubinian-tales-blog/mountains.jpg') 0 0 no-repeat fixed;
+  text-align: center;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://lubinian-tales.github.io/lubinian-tales-blog/mountains.jpg', sizingMethod='scale');
+  height: 400px;
+  width: 100%;
+  margin-bottom: 3em;
+  display: table;
+}
+.banner-head {
+  display: table-cell;
+  vertical-align: middle;
+  margin-bottom: 0;
+}
+.banner-head h1, .banner-head h2 {
+  font-size: 3em;
+  font-weight: 500;
+  color: white;
+  text-shadow: 0 1px 1px black;
+}
+.banner-head h2 {
+  font-size: 2em;
+}
+.post-banner {
+  background: transparent url('http://lubinian-tales.github.io/lubinian-tales-blog/mountains-blue.jpg') 0 0 no-repeat fixed;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://lubinian-tales.github.io/lubinian-tales-blog/mountains-blue.jpg', sizingMethod='scale');
+  height: 100px;
+}
+.post-banner-head h1, .post-banner-head h2 {
+  font-size: 2em;
+  font-weight: 500;
+  color: white;
+  text-shadow: 0 1px 1px black;
+}
+.post-banner-head h2 {
+  font-size: 1em;
+}

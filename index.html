@@ -1,0 +1,34 @@
+---
+layout: default
+title: Lubinian Tales
+---
+
+<div class="banner">
+  <div class="banner-head">
+    <h1>Lubinian Tales</h1>
+    <h2>The new book from A J Rees</h2>
+  </div>
+</div>
+
+{% for post in site.posts %}
+
+<article>
+
+  <div class="post-header">
+    <a href="{{ post.url }}">
+      <h2>
+        {{ post.title }}
+      </h2>
+    </a>
+    <p class="post-meta">
+      Published by A J Rees on {{ post.date | date: '%B %d, %Y' }}
+    </p>
+  </div>
+
+  <div class="post-text">
+    {{ post.excerpt }}
+  </div>
+
+</article>
+
+{% endfor %}
