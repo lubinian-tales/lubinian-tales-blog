@@ -36,10 +36,10 @@ article .post-text {
 }
 
 .banner, .post-banner {
-  background: transparent url('http://lubinian-tales.github.io/lubinian-tales-blog/mountains.jpg') 0 0 no-repeat fixed;
+  background: transparent url('http://lubinian-tales.github.io/lubinian-tales-blog/assets/img/mountains.jpg') 0 0 no-repeat fixed;
   text-align: center;
   background-size: cover;
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://lubinian-tales.github.io/lubinian-tales-blog/mountains.jpg', sizingMethod='scale');
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://lubinian-tales.github.io/lubinian-tales-blog/assets/img/mountains.jpg', sizingMethod='scale');
   height: 400px;
   width: 100%;
   margin-bottom: 3em;
@@ -60,8 +60,8 @@ article .post-text {
   font-size: 2em;
 }
 .post-banner {
-  background: transparent url('http://lubinian-tales.github.io/lubinian-tales-blog/mountains-blue.jpg') 0 0 no-repeat fixed;
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://lubinian-tales.github.io/lubinian-tales-blog/mountains-blue.jpg', sizingMethod='scale');
+  background: transparent url('http://lubinian-tales.github.io/lubinian-tales-blog/assets/img/mountains-blue.jpg') 0 0 no-repeat fixed;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://lubinian-tales.github.io/lubinian-tales-blog/assets/img/mountains-blue.jpg', sizingMethod='scale');
   height: 100px;
 }
 .post-banner-head h1, .post-banner-head h2 {
