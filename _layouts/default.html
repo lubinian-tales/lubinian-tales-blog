@@ -3,18 +3,26 @@
   <head>
     <title>{{page.title}}</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% feed_meta %}
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="assets/css/pure-min.css">
-    <link rel="stylesheet" href="assets/css/screen.css">
+    <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/pure-min.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/screen.css">
   </head>
   <body>
     <header>
-      <img src="assets/img/logo.png">
+      <a href="/">
+        <img src="{{ site.baseurl }}/assets/img/logo.png">
+      </a>
     </header>
     <main>
       {{content}}
     </main>
+    <footer>
+      <p>
+        Website by <a href="http://snevsky.com/">Serge Nevsky</a>
+      </p>
+    </footer>
   </body>
 </html>

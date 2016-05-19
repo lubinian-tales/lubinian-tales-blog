@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="post-banner">
-  <div class="post-banner-head">
+  <div class="post-banner-head banner-head">
     <h1>Lubinian Gazette</h1>
     <h2>The official Lubinian Tales blog from author A J Rees.</h2>
   </div>
@@ -13,10 +13,10 @@ layout: default
 
   <div class="post-header">
     <h2>
-      {{ post.title }}
+      {{ page.title }}
     </h2>
     <p class="post-meta">
-      Published by A J Rees on {{ post.date | date: '%B %d, %Y' }}
+      Published by A J Rees on {{ page.date | date: '%B %d, %Y' }}
     </p>
   </div>
 

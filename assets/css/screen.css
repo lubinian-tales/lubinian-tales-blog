@@ -1,3 +1,8 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 body {
   color: #444;
   font-family: Helvetica, Arial, sans-serif;
@@ -7,9 +12,9 @@ header {
   padding: 1em;
 }
 article {
-  max-width: 600px;
+  max-width: 900px;
   margin: 0 auto;
-  padding-bottom: 2em;
+  padding: 0 1em 2em 1em;
 }
 article .post-header {
   display: block;
@@ -62,7 +67,14 @@ article .post-text {
 .post-banner {
   background: transparent url('http://lubinian-tales.github.io/lubinian-tales-blog/assets/img/mountains-blue.jpg') 0 0 no-repeat fixed;
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://lubinian-tales.github.io/lubinian-tales-blog/assets/img/mountains-blue.jpg', sizingMethod='scale');
-  height: 100px;
+  background-size: cover;
+  height: 150px;
+  padding-left: 2em;
+  text-align: left;
+}
+.post-banner-head {
+  max-width: 900px;
+  margin: 0 auto;
 }
 .post-banner-head h1, .post-banner-head h2 {
   font-size: 2em;
@@ -72,4 +84,65 @@ article .post-text {
 }
 .post-banner-head h2 {
   font-size: 1em;
+}
+article a, article a:visited {
+  border-bottom: 1px dotted #c0c0c0;
+  color: #444;
+  text-decoration: none;
+}
+article a:hover, article a:visited:hover {
+  border-bottom-color: #2288ee;
+  color: #2288ee;
+}
+
+article a:active, article a:visited:active {
+  border-bottom-color: #004d9a;
+  color: #004d9a;
+}
+.marketing-inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.marketing-outer {
+  background: #1e73be;
+  color: #fff;
+}
+.pure-form label {
+  margin: 1em 0 0;
+  font-weight: bold;
+  font-size: 100%;
+}
+.pure-form input[type] {
+  border: 2px solid #ddd;
+  box-shadow: none;
+  font-size: 100%;
+  width: 100%;
+  margin-bottom: 1em;
+  color: #222;
+}
+.l-box-lrg {
+  padding: 1em;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.pure-button {
+  background-color: transparent;
+  width: 100%;
+  color: white;
+  padding: 0.5em 2em;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+footer {
+  background-color: #1f1f1f;
+}
+footer p {
+  max-width: 900px;
+  padding: 1em;
+  margin: 0 auto;
+  color: #666;
+}
+footer a {
+  font-weight: 700;
+  color: #666;
+  text-decoration: none;
 }
