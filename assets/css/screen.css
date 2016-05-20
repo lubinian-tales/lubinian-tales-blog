@@ -68,13 +68,14 @@ article .post-text {
   background: transparent url('http://lubinian-tales.github.io/lubinian-tales-blog/assets/img/mountains-blue.jpg') 0 0 no-repeat fixed;
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://lubinian-tales.github.io/lubinian-tales-blog/assets/img/mountains-blue.jpg', sizingMethod='scale');
   background-size: cover;
-  height: 150px;
-  padding-left: 2em;
+  height: auto;
   text-align: left;
 }
 .post-banner-head {
   max-width: 900px;
   margin: 0 auto;
+  vertical-align: middle;
+  padding: 1em;
 }
 .post-banner-head h1, .post-banner-head h2 {
   font-size: 2em;
@@ -132,8 +133,25 @@ article a:active, article a:visited:active {
   border-radius: 5px;
   border: 2px solid white;
 }
+.sub-footer {
+  background-color: #222222;
+  color: #fff;
+}
+.sub-footer h3, .sub-footer ul {
+  color: #1e73be;
+}
+.sub-footer ul {
+  padding-left: 1em;
+}
+.sub-footer a, .sub-footer a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+.sub-footer a:hover, .sub-footer a:visited:hover {
+  color: #1e73be;
+}
 footer {
-  background-color: #1f1f1f;
+  background-color: #111;
 }
 footer p {
   max-width: 900px;
