@@ -1,0 +1,8 @@
+/* TEAM */
+	Developer: Serge Nevsky
+	Site: http://snevsky.com
+	Twitter: @sergenevsky
+	From: Kansas City
+
+/* SITE */
+	Language: English
